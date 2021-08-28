@@ -1,0 +1,34 @@
+.footer {
+  position: fixed;
+  z-index: 100;
+  height: 65px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #252836;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #808191;
+  fill: #808191;
+}
+
+.box {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+}
+
+.box>p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #808191;
+}
