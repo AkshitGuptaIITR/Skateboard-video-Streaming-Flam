@@ -1,0 +1,61 @@
+* {
+  color: #ffffff;
+  font-style: normal;
+}
+
+.watchHeading {
+  width: 95%;
+  margin-left: 5%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.box {
+  width: 95%;
+  margin-left: 5%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.videoBox {
+  width: 320px;
+  height: 115px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  /* flex-direction: row !important; */
+}
+
+.videoBox>img {
+  margin-right: 20px;
+}
+
+.videoBox>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 80px;
+}
+
+.videoBox>div>h1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+
+.videoBox>div>p {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}

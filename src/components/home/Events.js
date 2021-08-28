@@ -24,6 +24,7 @@ const Events = () => {
         return (
           <div
             className={style.rectangle}
+            key={idx}
             style={{ backgroundImage: `url(${data.image})` }}
           >
             <span>
