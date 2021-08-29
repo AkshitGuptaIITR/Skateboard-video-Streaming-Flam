@@ -26,6 +26,10 @@
   background-clip: padding-box;
 }
 
+.border>img:hover{
+  cursor: pointer;
+}
+
 .storyBox {
   width: 70px;
   height: 85px;

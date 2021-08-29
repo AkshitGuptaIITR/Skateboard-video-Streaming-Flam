@@ -17,7 +17,11 @@
   fill: #808191;
 }
 
-.fillActive{
+.box:hover {
+  cursor: pointer;
+}
+
+.fillActive {
   fill: #6C5ECF;
 }
 

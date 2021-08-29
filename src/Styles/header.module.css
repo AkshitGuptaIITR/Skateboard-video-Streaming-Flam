@@ -23,9 +23,17 @@
   height: 24px;
 }
 
+.header>img:hover {
+  cursor: pointer;
+}
+
 .icon {
   width: 28px;
   height: 28px;
+}
+
+.icon:hover {
+  cursor: pointer;
 }
 
 .header>div {
