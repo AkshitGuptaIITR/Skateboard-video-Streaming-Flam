@@ -22,3 +22,16 @@
   width: 24px;
   height: 24px;
 }
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.header>div {
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}

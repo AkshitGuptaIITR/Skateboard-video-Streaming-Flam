@@ -8,6 +8,9 @@ const reducer = (state = initialState, action) => {
       selectionIndex: action.index
     }
   }
+  if(action.type === 'initialState'){
+    return initialState;
+  }
   return state;
 }
 
