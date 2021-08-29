@@ -17,6 +17,10 @@
   fill: #808191;
 }
 
+.fillActive{
+  fill: #6C5ECF;
+}
+
 .box {
   text-align: center;
   width: 80px;

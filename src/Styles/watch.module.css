@@ -20,6 +20,9 @@
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
+  height: 250px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 

@@ -2,10 +2,8 @@ import React from "react";
 import style from "../../Styles/watch.module.css";
 import pic1 from "../../assests/Images/dummy-pic-1.png";
 import pic2 from "../../assests/Images/dummy-pic-2.png";
-import { useState } from "react";
 
 const WatchList = () => {
-  const [direction, setdirection] = useState(false);
 
   const list = [
     {
@@ -29,19 +27,19 @@ const WatchList = () => {
       time: "2 days ago",
       image: pic1,
     },
-    // {
-    //   title: "Basic how to ride your skateboard comfortly",
-    //   name: "Jordan Wise",
-    //   views: 125905,
-    //   time: "2 days ago",
-    //   image: pic2,
-    // },
+    {
+      title: "Basic how to ride your skateboard comfortly",
+      name: "Jordan Wise",
+      views: 125905,
+      time: "2 days ago",
+      image: pic2,
+    },
   ];
 
   return (
     <>
       <div className={style.watchHeading}>Most Watched</div>
-      <div className={`${style.box}`} style={{flexDirection:`column`}}>
+      <div className={`${style.box}`} style={{ flexDirection: `column` }}>
         {list.map((data, idx) => {
           return (
             <div key={idx} className={style.videoBox}>
