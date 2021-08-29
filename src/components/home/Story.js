@@ -63,6 +63,12 @@ const Story = () => {
                 } `,
               }}
             >
+              <img
+                src={data.image}
+                // className={style.border}
+                onClick={() => handleSelection(idx)}
+                alt=""
+              />
               <div
                 style={{
                   visibility: `${
@@ -72,12 +78,6 @@ const Story = () => {
               >
                 <IoCheckmarkSharp className={style.icon} />
               </div>
-              <img
-                src={data.image}
-                // className={style.border}
-                onClick={() => handleSelection(idx)}
-                alt=""
-              />
             </div>
             <p>{data.name}</p>
           </div>
