@@ -16,8 +16,16 @@
   display: none;
 }
 
+.storyBox>div>img {
+  border: 3.5px solid #1F1D2B;
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+  background-clip: padding-box;
+}
+
 .storyBox {
-  width: 64px;
+  width: 70px;
   height: 85px;
   margin-right: 20px;
   display: flex;
@@ -32,6 +40,43 @@
   font-size: 11px;
   line-height: 11px;
   text-align: center;
+  visibility:visible;
   letter-spacing: 0.3px;
   color: #808191;
+}
+
+.border {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+  /* margin: 3px; */
+  background-size: 20px;
+  /* background: linear-gradient(#08A0F7, #6C5ECF); */
+}
+
+.border>div {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #08A0F7;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  margin-top: 36px;
+  align-items: center;
+  margin-left: 54px;
+  background-clip: padding-box;
+  border: 4.5px solid #1F1D2B;
+  position: absolute;
+  z-index: 50;
+}
+
+.icon {
+  width: 13px;
+  height: 13px;
 }

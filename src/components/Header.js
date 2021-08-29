@@ -12,9 +12,9 @@ const Header = () => {
   const dispatch = useDispatch();
 
   const handleBack = () => {
-    dispatch({type: 'initialState'})
-    history.push("/")
-  }
+    dispatch({ type: "initialState" });
+    history.push("/");
+  };
 
   useEffect(() => {
     handleBack();
