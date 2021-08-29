@@ -1,0 +1,18 @@
+.error{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  width: 55px;
+  height: 55px;
+  margin-right: 20px;
+}
+
+.error>p{
+  font-size: 20px;
+  color: #808191;
+}

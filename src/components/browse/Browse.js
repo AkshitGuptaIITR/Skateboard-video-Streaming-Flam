@@ -42,6 +42,9 @@ const Browse = () => {
                 <h1>{data.title}</h1>
                 <div
                   onClick={() => handleLike(idx)}
+                  className={
+                    idx === id ? (like ? style.red : null) : null
+                  }
                   style={{
                     background: `${
                       idx === id ? (like ? "#EA5F5F" : "#D8D8D8") : null
