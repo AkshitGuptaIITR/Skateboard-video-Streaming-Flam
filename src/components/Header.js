@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import style from "../Styles/header.module.css";
 import searchIcon from "../assests/Images/searchIcon.png";
 import { useSelector } from "react-redux";
@@ -11,14 +11,14 @@ const Header = () => {
   const history = useHistory();
   const dispatch = useDispatch();
 
-  const handleBack = () => {
+  const handleBack = useCallback(() => {
     dispatch({ type: "initialState" });
     history.push("/");
-  };
+  }, [dispatch, history]);
 
   useEffect(() => {
     handleBack();
-  }, []);
+  }, [handleBack]);
 
   return (
     <div className={style.header}>
